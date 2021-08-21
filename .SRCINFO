@@ -1,7 +1,7 @@
 pkgbase = mingw-w64-attica
 	pkgdesc = Qt library that implements the Open Collaboration Services API (mingw-w64)
-	pkgver = 5.76.0
-	pkgrel = 2
+	pkgver = 5.85.0
+	pkgrel = 1
 	url = https://community.kde.org/Frameworks
 	arch = any
 	groups = mingw-w64-kf5
@@ -12,11 +12,10 @@ pkgbase = mingw-w64-attica
 	options = staticlibs
 	options = !strip
 	options = !buildflags
-	source = http://download.kde.org/stable/frameworks/5.76/attica-5.76.0.tar.xz
-	source = http://download.kde.org/stable/frameworks/5.76/attica-5.76.0.tar.xz.sig
+	source = http://download.kde.org/stable/frameworks/5.85/attica-5.85.0.tar.xz
+	source = http://download.kde.org/stable/frameworks/5.85/attica-5.85.0.tar.xz.sig
 	validpgpkeys = 53E6B47B45CEA3E0D5B7457758D0EE648A48B3BB
-	sha256sums = 64b262f61935653b91a83f4d1c659e7dcaf575b12aa955fe16d8392adb256e22
+	sha256sums = 345fb419e5ef64dc23e3cfda3a8d9877fa915cd0b5d8dee0517d4326be148be7
 	sha256sums = SKIP
 
 pkgname = mingw-w64-attica
-
